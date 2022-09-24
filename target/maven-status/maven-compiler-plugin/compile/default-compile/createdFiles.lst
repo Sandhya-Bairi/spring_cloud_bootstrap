@@ -1,0 +1,8 @@
+org\example\queue\RedisMessageSubscriber.class
+org\example\model\Student.class
+org\example\model\Student$Gender.class
+org\example\repo\StudentRepository.class
+org\example\queue\RedisMessagePublisher.class
+org\example\config\RedisConfig.class
+org\example\SpringRedisApplication.class
+org\example\queue\MessagePublisher.class

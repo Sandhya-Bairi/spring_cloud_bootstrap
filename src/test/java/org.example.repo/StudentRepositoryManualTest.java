@@ -22,9 +22,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-//@ContextConfiguration(classes = RedisConfig.class)
-//@DirtiesContext(classMode = DirtiesContext.ClassMode.BEFORE_CLASS)
-@SpringBootTest
+@ContextConfiguration(classes = RedisConfig.class)
 @DirtiesContext(classMode = DirtiesContext.ClassMode.BEFORE_CLASS)
 public class StudentRepositoryManualTest {
 
